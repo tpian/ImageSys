@@ -1,2 +1,16 @@
-# Image
-Donghua Graduation project: Image Reduction and Classification
+# 介绍
+东华大学本科生毕业设计: 动物图像识别及分类网站
+# 技术
+前端：Vue框架  
+后端：python编程、TensorFlow深度学习框架（主要使用网络为DCGNN与Inception ResNet）、flash轻量化python后端框架，MySQL数据库存储用户提供的图片与纠正的识别结果
+# 主要页面
+主页菜单：无需登录，点击即用
+
+识别页面：上传图片，获取识别结果，并点击跳转到百度百科相关介绍，用户能在此页面纠正错误的识别结果并保存到后端数据库中
+
+降噪页面：上传图片，获取降噪结果
+
+# 深度学习网络结构
+降噪网络：DCGNN
+
+识别网络：Inception ResNet
